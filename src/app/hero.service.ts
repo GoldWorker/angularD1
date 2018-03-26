@@ -9,7 +9,7 @@ export class HeroService {
   constructor() {}
 
   getHeroes() : Observable < Hero[] > {
-return Observable.of(HEROES);
+    return Observable.of(HEROES);
   }
 
 }
